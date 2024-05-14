@@ -17,11 +17,26 @@ Este proyecto consiste en la generación de modelos 3D a partir del procesamient
 2. Crea una cuenta de GitHub desde: [github.com](https://github.com/).
 
 Para verificar las instalaciones, abre una terminal (o el Símbolo del sistema en Windows) y ejecuta los siguientes comandos:
-```bash
+```
 python --version
 conda --version
 git --version
+```
 
+#### 1.3 Instalar OpenCV:
+Deberas hacer los siguientes comandos en el orden que aparecen:
+```
+pip install opencv-python
+pip install opencv-contrib-python
+```
+
+#### 1.4 Clonar repositorio:
+Clona el repositorio del proyecto desde GitHub utilizando SSH, ya que esto te permitirá enlazar tu cuenta de forma más rápida al repositorio local. Abre una terminal y ejecuta el siguiente comando:
+```
+git clone git@github.com:motero2k/3D-scanner.git
+```
+Deberás ejecutar este comando donde quieras que sea tu entorno de trabajo.
+Tras hacer esto, ya podrás navegar sobre el proyecto y usarlo.
 ### Estructura de Carpetas
 **Carpeta principal:**
 - **MISC**: Carpeta en la que se ha experimentado y desarrollado el código, dividido en los distintos pasos del algoritmo:
