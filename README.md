@@ -10,7 +10,9 @@ Este proyecto consiste en la generación de modelos 3D a partir del procesamient
   - **1-camera-calibration**: Aquí se encuentra todo lo usado para la construcción de la calibración de la cámara. Contiene:
     - **img**: Carpeta con las imágenes utilizadas
     - **demo.ipynb**: Código de la calibración de la cámara.
-  - **2-camera-position**: TODO
+  - **2-camera-position**:
+    - **functions.ipynb:** Código con el que se ha estado trabajando y experimentando durante la obtención de la rotación y posición de la cámara.
+    - **Posición.ipynb:** Código con el que se realizaron experimentaciones más detalladas de este paso.
   - **3-silhouettes**: Todo lo usado para la construcción de la generación de las siluetas. Contiene:
     - **Photos**: Imágenes genéricas para las experimentaciones.
     - **vistas**: Contiene 3 imágenes de una figura real para la experimentación.
