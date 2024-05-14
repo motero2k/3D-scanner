@@ -4,6 +4,24 @@
 Este proyecto consiste en la generación de modelos 3D a partir del procesamiento de las imágenes tomadas de una figura desde distintas posiciones. El procesamiento está construido a partir de la colocación de las siluetas generadas en planos de proyección para que esas proyecciones se intercepten entre sí, obteniendo así una aproximación del mallado 3D de la figura.
 
 ## Manual de Usuario
+### Instalación Necesaria
+
+#### 1.1 Instalar Anaconda
+
+1. Descarga el instalador de Anaconda desde [anaconda.com](https://www.anaconda.com/download/success). Esto te incluirá Anaconda con su versión de Python.
+2. Ejecuta el instalador y sigue las instrucciones en pantalla.
+
+#### 1.2 Instalar Git
+
+1. Descarga la versión standalone de Git desde este enlace: [git-scm.com](https://git-scm.com/download/win).
+2. Crea una cuenta de GitHub desde: [github.com](https://github.com/).
+
+Para verificar las instalaciones, abre una terminal (o el Símbolo del sistema en Windows) y ejecuta los siguientes comandos:
+```bash
+python --version
+conda --version
+git --version
+
 ### Estructura de Carpetas
 **Carpeta principal:**
 - **MISC**: Carpeta en la que se ha experimentado y desarrollado el código, dividido en los distintos pasos del algoritmo:
